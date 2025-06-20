@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['bottle', 'food', 'guiness_full_glass', 'phone', 'split_guiness', 'too_high_glass', 'too_low_glass']
+
+roboflow:
+  workspace: splitit
+  project: split-it
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/splitit/split-it/dataset/2
