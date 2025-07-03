@@ -38,7 +38,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port if running a web service
-EXPOSE 8000
+EXPOSE 5000
 
 # Default command
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]

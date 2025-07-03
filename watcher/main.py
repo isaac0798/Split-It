@@ -51,4 +51,4 @@ if __name__ == "__main__":
     # Initialize tester
     tester = GlassDetectorTester()
     
-    tester.test_single_image("./data/successful_attempt.png")
+    tester.test_single_image("./data/too_low_glasses/four-branded-glasses-of-guinness-stout-beer-three-empty-glasses-and-one-glass-with-creamy-froth-head-and-dark-beer-brian-boru-harp-logo-2Y89TT2.jpg")
