@@ -11,7 +11,10 @@ import SwiftUI
 struct Split_ItApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                MainView()
+            }
+            .navigationTitle("Split It!")
         }
     }
 }
